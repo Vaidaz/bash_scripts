@@ -23,6 +23,6 @@ function monitor(){
 
 trap stop EXIT
 
-bash $@ &
+eval $@ &
 pid=$!
 monitor
