@@ -17,7 +17,7 @@ function monitor(){
       break
     fi
 
-  	sleep 1
+    sleep 1
   done
 }
 
